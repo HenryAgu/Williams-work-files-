@@ -1,0 +1,177 @@
+footer {
+  padding: 50px;
+  padding-bottom: 30px;
+  background: #e9e9e980;
+}
+
+.footer-grid,
+.copyright-footer {
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+  width: 100%;
+  gap: 20px;
+  font-size: 13px;
+  font-weight: 400;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.inner-footer-grid {
+  color: black;
+}
+
+.inner-footer-grid img {
+  width: 90px;
+  height: 50px;
+}
+
+.inner-footer-grid .grid-header {
+  color: #3a3a3a;
+  margin-bottom: 30px;
+}
+
+.inner-footer-grid .grid-header:hover {
+  color: black;
+}
+
+.inner-footer-grid ul li {
+  color: black;
+  line-height: 30px;
+  transition: 0.5s ease;
+}
+
+.inner-footer-grid ul li:hover {
+  color: #3a3a3a;
+}
+
+.copyright-footer {
+  margin-top: 50px;
+}
+
+.inner-copyright-footer {
+  display: flex;
+  gap: 10px;
+}
+
+.inner-copyright-footer a {
+  color: black;
+}
+
+.inner-copyright-footer i {
+  font-size: 16px;
+}
+
+.globe {
+  margin-right: 5px;
+}
+
+.facebook {
+  color: #4267b2;
+  box-shadow: 1px 1px 4px 2px rgba(0, 0, 0, 0.25);
+  padding: 5px;
+  border-radius: 50%;
+}
+
+.instagram {
+  color: #3f729b;
+  box-shadow: 1px 1px 4px 2px rgba(0, 0, 0, 0.25);
+  padding: 5px;
+  border-radius: 50%;
+}
+
+.youtube {
+  color: #ff0000;
+  box-shadow: 1px 1px 4px 2px rgba(0, 0, 0, 0.25);
+  padding: 5px;
+  border-radius: 50%;
+}
+
+.linkedin {
+  color: #134da5;
+  box-shadow: 1px 1px 4px 2px rgba(0, 0, 0, 0.25);
+  padding: 5px;
+  border-radius: 50%;
+}
+
+.twitter {
+  color: #00acee;
+  box-shadow: 1px 1px 4px 2px rgba(0, 0, 0, 0.25);
+  padding: 5px;
+  border-radius: 50%;
+}
+
+.inner-copyright-footer .app-store {
+  width: 80px;
+  height: 25px;
+  position: relative;
+  top: 6px;
+}
+
+.inner-copyright-footer .google-play {
+  width: 80px;
+  height: 35px;
+}
+
+.gotopbtn {
+  position: fixed;
+  width: 50px;
+  height: 50px;
+  background: #0000a3;
+  bottom: 40px;
+  left: 1200px;
+  text-decoration: none;
+  text-align: center;
+  line-height: 50px;
+  font-size: 18px;
+  color: white;
+  border-radius: 5px;
+}
+
+.gotopbtn:hover {
+  color: white;
+}
+
+/* Responsiveness starts here */
+/* medium screens */
+@media (max-width: 991px) {
+  .inner-copyright-footer .google-play,
+  .inner-copyright-footer .app-store {
+    width: 100px;
+  }
+}
+
+/* Small Screens */
+@media only screen and (max-width: 480px) {
+  .footer-grid,
+  .copyright-footer {
+    display: grid;
+    grid-template-columns: 1fr;
+    text-align: center;
+    width: 100%;
+    gap: 10px;
+    font-size: 16px;
+    font-weight: 400;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .hide {
+    display: none;
+  }
+
+  .twitter,
+  .youtube,
+  .linkedin,
+  .facebook,
+  .instagram,
+  .inner-copyright-footer .app-store,
+  .inner-copyright-footer .google-play {
+    display: none;
+  }
+  .inner-copyright-footer{
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    font-size: 18px;
+  }
+}

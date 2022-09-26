@@ -1,0 +1,577 @@
+.pricing {
+  padding-top: 120px;
+}
+
+.pricing-header {
+  text-align: center;
+  margin-bottom: 100px;
+}
+
+.pricing-header h1 {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 45px;
+  line-height: 105px;
+  color: #000000;
+}
+
+.pricing-header p {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 18px;
+  width: 50%;
+  margin-left: auto;
+  margin-right: auto;
+  line-height: 36px;
+  text-align: center;
+  color: #000000;
+}
+
+.plans {
+  width: 90%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 50px;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  text-align: center;
+  gap: 30px;
+}
+
+.basic {
+  border: 2px solid #0094ff;
+}
+
+.premium {
+  border: 2px solid #00c600;
+}
+
+.business {
+  border: 2px solid #ff3d00;
+}
+
+.basic,
+.premium,
+.business {
+  border-radius: 27px;
+}
+
+.plan-header h3 {
+  background-color: wheat;
+  border-radius: 60px;
+  width: 80%;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-left: auto;
+  margin-right: auto;
+  position: relative;
+  bottom: 22px;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 52px;
+  text-transform: uppercase;
+  color: #ffffff;
+}
+
+.basic-header,
+.premium-header,
+.business-header {
+  padding-bottom: 20px;
+}
+
+.basic-header h3 {
+  background-color: #0094ff;
+}
+.basic-header p {
+  color: #005898;
+}
+
+.basic-header {
+  background: #0094ff26;
+  border-radius: 27px;
+}
+
+.premium-header h3 {
+  background-color: #00c600;
+}
+
+.premium-header p {
+  color: #003000;
+}
+
+.premium-header {
+  background-color: #00c60026;
+  border-radius: 27px;
+}
+
+.business-header h3 {
+  background-color: #ff3d00;
+}
+
+.business-header p {
+  color: #a32700;
+}
+
+.business-header {
+  border-radius: 27px;
+  background-color: #ff3d0026;
+}
+
+.amount {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.amount img {
+  width: 25px;
+  height: 25px;
+  margin-right: 10px;
+}
+
+.amount h1 {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 60px;
+  color: #000000;
+}
+
+.price p {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 24px;
+  margin-top: -10px;
+  color: rgba(58, 58, 58, 0.7);
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.per-cost p {
+  display: flex;
+  justify-content: center;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  color: rgba(58, 58, 58, 0.7);
+}
+
+.per-cost h2 {
+  font-size: 28px;
+  padding-left: 4px;
+  padding-right: 4px;
+  font-weight: bolder;
+}
+
+.price-button {
+  margin-top: 100px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.price-button button {
+  width: 55%;
+  height: 40px;
+  cursor: pointer;
+  outline: none;
+  transition: 0.5s ease;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 33px;
+  border-radius: 4px;
+}
+
+.price-button button:hover,
+.price-button button:focus {
+  width: 60%;
+}
+
+.price-button a {
+  font-size: 12px;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 600;
+  margin-top: 10px;
+}
+
+.basic-button,
+.premium-button {
+  margin-top: 133px;
+}
+
+.basic-button {
+  margin-top: 158px;
+}
+
+.basic-button button {
+  border: 1.5px solid #0080dc;
+  color: #0080dc;
+  background-color: white;
+}
+
+.premium-button a {
+  color: #007700;
+}
+
+.premium-button button {
+  color: white;
+  border: none;
+  background-color: #00c600;
+}
+
+.business-button button {
+  border: 1.5px solid #ff3d00;
+  color: #ff3d00;
+  background-color: white;
+}
+
+.business-button a {
+  color: #da3400;
+}
+
+.price-spec {
+  margin-top: 100px;
+  margin-bottom: 50px;
+}
+
+.basic-spec {
+  margin-top: 145px;
+}
+
+.price-spec ul li {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 33px;
+  text-align: center;
+  color: #000000;
+}
+
+.our-plans {
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+.our-plans select {
+  width: 20%;
+  height: 50px;
+  border: 2px solid #0000cc;
+  outline: none;
+  border-radius: 60px;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  padding-left: 10px;
+  padding-right: 10px;
+  line-height: 42px;
+  color: #000031;
+  background-color: white;
+  
+}
+
+.faqs {
+  margin-bottom: 100px;
+}
+
+.faq-header {
+  text-align: center;
+}
+
+.faq-header h1 {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 35px;
+  color: #000000;
+}
+
+.faq-header p {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 45px;
+  margin-bottom: 50px;
+  color: #000000;
+}
+
+.faq-questions {
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.faq-question {
+  border-top: 1px solid rgba(58, 58, 58, 0.5);
+  cursor: pointer;
+}
+
+.last-question {
+  border-bottom: 1px solid rgba(58, 58, 58, 0.5);
+}
+
+.quest {
+  display: flex;
+  align-items: center;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  color: #000000;
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+
+.quest i {
+  font-size: 25px;
+  margin-right: 20px;
+  cursor: pointer;
+}
+
+.faq-answer {
+  margin-left: 45px;
+}
+
+.faq-answer p {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  padding-bottom: 5px;
+}
+
+/* Team section starts here */
+.team {
+  background-color: #e9e9e980;
+  padding: 50px;
+  margin-bottom: 70px;
+}
+.team h2 {
+  text-align: center;
+  color: black;
+  font-size: 20px;
+  letter-spacing: 2px;
+  font-weight: bold;
+  font-family: "Poppins";
+  margin-bottom: 30px;
+}
+
+.inner-team {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  overflow: hidden;
+  width: 90%;
+  gap: 50px;
+  padding: 50px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.team-picture {
+  width: 120px;
+  height: 60px;
+}
+
+.special-image {
+  padding-top: 30px;
+}
+
+.question {
+  width: 95%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: right;
+}
+
+.question button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 18%;
+  height: 70px;
+  border-radius: 70px;
+  cursor: pointer;
+  border: none;
+  outline: none;
+  background: #ff3d00;
+  transition: 0.5s ease;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 42px;
+  color: #ffffff;
+}
+
+.question img {
+  height: 30px;
+  width: 30px;
+  margin-right: 15px;
+}
+
+.signup-footer {
+  width: 85%;
+  margin-left: auto;
+  margin-right: auto;
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+  color: black;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 14px;
+}
+
+.terms a {
+  color: black;
+}
+
+.social-handle i {
+  margin-left: 10px;
+}
+
+.google-images {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: relative;
+  bottom: 20px;
+  left: 50px;
+}
+
+.google-images a .appstore a {
+  height: 50px;
+}
+
+/* Responsiveness starts here */
+
+/* Large screens */
+@media (max-width: 1024px) {
+  .question img {
+    margin-right: 5px;
+  }
+  .signup-footer {
+    width: 90%;
+  }
+  .social-handle i {
+    margin-left: 5px;
+  }
+}
+
+/* medium screens */
+@media (max-width: 991px) {
+  .pricing-header p {
+    width: 80%;
+  }
+  .plans {
+    width: 95%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 50px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    text-align: center;
+    gap: 15px;
+  }
+  .plan-header {
+    padding: 5px;
+  }
+  .amount {
+    margin-bottom: 20px;
+  }
+  .amount h1 {
+    font-family: "Poppins";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 50px;
+    color: #000000;
+  }
+  .price-spec {
+    margin-top: 50px;
+    margin-bottom: 50px;
+  }
+  .our-plans select {
+    width: 35%;
+  }
+  .faq-header {
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .team {
+    width: 100%;
+  }
+
+  .inner-team {
+    width: 90%;
+    gap: 50px;
+    padding: 0;
+    padding-bottom: 20px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+
+/* Small Screens */
+@media only screen and (max-width: 480px) {
+  .plans {
+    width: 85%;
+    grid-template-columns:  1fr;
+    gap: 50px;
+  }
+  .amount h1 {
+    font-size: 60px;
+  }
+  .our-plans select {
+    width: 60%;
+  }
+  .faq-header {
+    margin-bottom: 100px;
+    width: 85%;
+  }
+  .team {
+    padding: 20px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    /* margin-bottom: 70px; */
+  }
+
+  .inner-team {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    width: 90%;
+    gap: 100px;
+    padding: 0;
+    padding-top: 20px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .faq-questions {
+  width: 85%;
+}
+.basic-button{
+  margin-top: 100px;
+}
+}

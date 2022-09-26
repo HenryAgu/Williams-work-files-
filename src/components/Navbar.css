@@ -1,0 +1,55 @@
+.navbar {
+  height: 10vh;
+  width: 100vw;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 20px;
+}
+
+.navbar-brand .logo {
+  height: 60px;
+  width: 120px;
+}
+
+.navbar-start {
+  margin-left: 100px;
+}
+
+.navbar-start link {
+  color: #3a3a3a;
+}
+
+.navbar-start link:focus {
+  color: black;
+}
+
+.navbar-end .button {
+  color: #ffffff;
+  border: none;
+  outline: none;
+  transition: 0.5s ease;
+  background: #0000a3;
+}
+
+.navbar-end .button:hover {
+  color: silver;
+}
+
+
+/* Responsiveness starts here */
+/* medium screens */
+@media (max-width: 991px) {
+  .navbar {
+  height: 0;
+}
+
+.navbar-start {
+  margin-left: 0;
+}
+
+.navbar-brand .logo {
+  height: 80px;
+  width: 100px;
+}
+
+}
